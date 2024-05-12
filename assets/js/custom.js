@@ -21,8 +21,3 @@ var event_gallery_swiper = new Swiper('.event-gallery__swiper', {
         },
     },
 });
-
-/*AOS Initialize*/
-AOS.init({
-    disable: 'mobile'
-});

@@ -47,7 +47,7 @@ fetch('https://api.coinlore.net/api/tickers/')
             bitcoinNameDiv.innerHTML = `${bitcoinName}`;
             if(parseFloat(bitcoinPercent) < 0) {
                 bitcoinPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-down crypto__percentage-icon"></i> ${bitcoinPercent}%`;
-                bitcoinPercentDiv.classList.add('crypto__percentage--success');
+                bitcoinPercentDiv.classList.add('crypto__percentage--danger');
                 
             } else {
                 bitcoinPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-up crypto__percentage-icon"></i>  ${bitcoinPercent}%`;
@@ -74,7 +74,7 @@ fetch('https://api.coinlore.net/api/tickers/')
             ethNameDiv.innerHTML = `${ethName}`;
             if(parseFloat(ethPercent) < 0) {
                 ethPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-down crypto__percentage-icon"></i> ${ethPercent}%`;
-                ethPercentDiv.classList.add('crypto__percentage--success');
+                ethPercentDiv.classList.add('crypto__percentage--danger');
                 
             } else {
                 ethPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-up crypto__percentage-icon"></i>  ${ethPercent}%`;
@@ -101,7 +101,7 @@ fetch('https://api.coinlore.net/api/tickers/')
             rippleNameDiv.innerHTML = `${rippleName}`;
             if(parseFloat(ripplePercent) < 0) {
                 ripplePercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-down crypto__percentage-icon"></i> ${ripplePercent}%`;
-                ripplePercentDiv.classList.add('crypto__percentage--success');
+                ripplePercentDiv.classList.add('crypto__percentage--danger');
                 
             } else {
                 ripplePercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-up crypto__percentage-icon"></i>  ${ripplePercent}%`;
@@ -128,7 +128,7 @@ fetch('https://api.coinlore.net/api/tickers/')
             litecoinNameDiv.innerHTML = `${litecoinName}`;
             if(parseFloat(litecoinPercent) < 0) {
                 litecoinPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-down crypto__percentage-icon"></i> ${litecoinPercent}%`;
-                litecoinPercentDiv.classList.add('crypto__percentage--success');
+                litecoinPercentDiv.classList.add('crypto__percentage--danger');
                 
             } else {
                 litecoinPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-up crypto__percentage-icon"></i>  ${litecoinPercent}%`;
@@ -155,7 +155,7 @@ fetch('https://api.coinlore.net/api/tickers/')
             BitcoinCashNameDiv.innerHTML = `${BitcoinCashName}`;
             if(parseFloat(BitcoinCashPercent) < 0) {
                 BitcoinCashPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-down crypto__percentage-icon"></i> ${BitcoinCashPercent}%`;
-                BitcoinCashPercentDiv.classList.add('crypto__percentage--success');
+                BitcoinCashPercentDiv.classList.add('crypto__percentage--danger');
                 
             } else {
                 BitcoinCashPercentDiv.innerHTML = `<i class="fa-solid fa-circle-chevron-up crypto__percentage-icon"></i>  ${BitcoinCashPercent}%`;
